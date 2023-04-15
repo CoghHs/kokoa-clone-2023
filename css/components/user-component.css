@@ -58,3 +58,22 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__text {
+    position: relative;
+}
+
+.user-component__text span{
+    position:absolute;
+    color:tomato;
+    font-size:0.8em;
+    height: 15px;
+    width:15px;
+    border-radius: 50%;
+    padding:0.1px 0.2px;
+    line-height:1.25em;
+    border:1px solid tomato;
+    text-align:center;
+    right:58px;
+    bottom:0px;
+}
