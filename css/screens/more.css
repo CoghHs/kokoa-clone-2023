@@ -1,3 +1,4 @@
+
 .more-screen .icon-row {
     margin-top: 35px;
 }
@@ -21,6 +22,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .more-suggestions__icon-image {
@@ -34,7 +36,45 @@
     margin-bottom: 10px;
 }
 
+.more-suggestions__icon-image__face-book {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0e8ef2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .more-suggestions__icon-image i {
     font-size: 30px;
     color: white;
+}
+
+.more-suggestions__kokoa-now__title {
+    border-top: var(--main-border);
+    padding: 30px 0;
+}
+
+.more-suggestions__kokoa-now__data {
+    position: relative;
+}
+
+.more-suggestions__kokoa-now__data img {
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.more-suggestions__kokoa-now__text {
+    position: absolute;
+    color: white;
+    top: 15px;
+    left: 15px;
+    background-color: var(--gray);
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 12px;
 }
